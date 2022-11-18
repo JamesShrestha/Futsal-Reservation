@@ -5,116 +5,117 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FutsalReservation
 build_property.RootNamespace = FutsalReservation
-build_property.ProjectDir = D:\6th semester\dotnet labs\FutsalReservation\FutsalReservation\
+build_property.ProjectDir = D:\dotnet\Futsal\FutsalReservation\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\6th semester\dotnet labs\FutsalReservation\FutsalReservation
+build_property.MSBuildProjectDirectory = D:\dotnet\Futsal\FutsalReservation
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/6th semester/dotnet labs/FutsalReservation/FutsalReservation/Views/Court/Create.cshtml]
+[D:/dotnet/Futsal/FutsalReservation/Views/Court/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnRcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/6th semester/dotnet labs/FutsalReservation/FutsalReservation/Views/Court/Delete.cshtml]
+[D:/dotnet/Futsal/FutsalReservation/Views/Court/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnRcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/6th semester/dotnet labs/FutsalReservation/FutsalReservation/Views/Court/Details.cshtml]
+[D:/dotnet/Futsal/FutsalReservation/Views/Court/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnRcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/6th semester/dotnet labs/FutsalReservation/FutsalReservation/Views/Court/Edit.cshtml]
+[D:/dotnet/Futsal/FutsalReservation/Views/Court/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnRcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/6th semester/dotnet labs/FutsalReservation/FutsalReservation/Views/Court/Index.cshtml]
+[D:/dotnet/Futsal/FutsalReservation/Views/Court/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/6th semester/dotnet labs/FutsalReservation/FutsalReservation/Views/Court/ShowReservations.cshtml]
+[D:/dotnet/Futsal/FutsalReservation/Views/Court/ShowReservations.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnRcU2hvd1Jlc2VydmF0aW9ucy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/6th semester/dotnet labs/FutsalReservation/FutsalReservation/Views/Home/Index.cshtml]
+[D:/dotnet/Futsal/FutsalReservation/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/6th semester/dotnet labs/FutsalReservation/FutsalReservation/Views/Home/Privacy.cshtml]
+[D:/dotnet/Futsal/FutsalReservation/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/6th semester/dotnet labs/FutsalReservation/FutsalReservation/Views/Reservation/Create.cshtml]
+[D:/dotnet/Futsal/FutsalReservation/Views/Reservation/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/6th semester/dotnet labs/FutsalReservation/FutsalReservation/Views/Reservation/Delete.cshtml]
+[D:/dotnet/Futsal/FutsalReservation/Views/Reservation/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/6th semester/dotnet labs/FutsalReservation/FutsalReservation/Views/Reservation/Details.cshtml]
+[D:/dotnet/Futsal/FutsalReservation/Views/Reservation/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/6th semester/dotnet labs/FutsalReservation/FutsalReservation/Views/Reservation/Edit.cshtml]
+[D:/dotnet/Futsal/FutsalReservation/Views/Reservation/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/6th semester/dotnet labs/FutsalReservation/FutsalReservation/Views/Reservation/Index.cshtml]
+[D:/dotnet/Futsal/FutsalReservation/Views/Reservation/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/6th semester/dotnet labs/FutsalReservation/FutsalReservation/Views/Reservation/UserCreate.cshtml]
+[D:/dotnet/Futsal/FutsalReservation/Views/Reservation/UserCreate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25cVXNlckNyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/6th semester/dotnet labs/FutsalReservation/FutsalReservation/Views/Shared/Error.cshtml]
+[D:/dotnet/Futsal/FutsalReservation/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/6th semester/dotnet labs/FutsalReservation/FutsalReservation/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/dotnet/Futsal/FutsalReservation/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/6th semester/dotnet labs/FutsalReservation/FutsalReservation/Views/User/Create.cshtml]
+[D:/dotnet/Futsal/FutsalReservation/Views/User/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/6th semester/dotnet labs/FutsalReservation/FutsalReservation/Views/User/Delete.cshtml]
+[D:/dotnet/Futsal/FutsalReservation/Views/User/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/6th semester/dotnet labs/FutsalReservation/FutsalReservation/Views/User/Details.cshtml]
+[D:/dotnet/Futsal/FutsalReservation/Views/User/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/6th semester/dotnet labs/FutsalReservation/FutsalReservation/Views/User/Edit.cshtml]
+[D:/dotnet/Futsal/FutsalReservation/Views/User/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/6th semester/dotnet labs/FutsalReservation/FutsalReservation/Views/User/Index.cshtml]
+[D:/dotnet/Futsal/FutsalReservation/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/6th semester/dotnet labs/FutsalReservation/FutsalReservation/Views/User/Login.cshtml]
+[D:/dotnet/Futsal/FutsalReservation/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/6th semester/dotnet labs/FutsalReservation/FutsalReservation/Views/User/ShowReservations.cshtml]
+[D:/dotnet/Futsal/FutsalReservation/Views/User/ShowReservations.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaG93UmVzZXJ2YXRpb25zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/6th semester/dotnet labs/FutsalReservation/FutsalReservation/Views/_ViewImports.cshtml]
+[D:/dotnet/Futsal/FutsalReservation/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/6th semester/dotnet labs/FutsalReservation/FutsalReservation/Views/_ViewStart.cshtml]
+[D:/dotnet/Futsal/FutsalReservation/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/6th semester/dotnet labs/FutsalReservation/FutsalReservation/Views/Shared/_Layout.cshtml]
+[D:/dotnet/Futsal/FutsalReservation/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-6ngzbqhhlw

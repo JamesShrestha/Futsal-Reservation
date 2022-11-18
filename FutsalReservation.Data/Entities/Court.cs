@@ -11,11 +11,12 @@ namespace FutsalReservation.Data.Entities
     [Table("Court")]
     public class Court
     {
-        //private readonly List<String> _timings;
+        
         [Key]
         public int Id { get; set; }
         public string Name { get; set; }
         public virtual ICollection<Reservation>? Reservations { get; set; }
+        public List<Timing> Timings { get; set; }
 
         //public Court()
         //{
@@ -25,4 +26,7 @@ namespace FutsalReservation.Data.Entities
         //        };
         //}
     }
+
+    
+   
 }

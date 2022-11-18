@@ -13,6 +13,7 @@ namespace FutsalReservation.Controllers
     public class CourtController : Controller
     {
         private readonly FutsalReservationContext _context;
+        private List<int> _hourTimings = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
 
         public CourtController(FutsalReservationContext context)
         {
@@ -48,6 +49,7 @@ namespace FutsalReservation.Controllers
         // GET: Court/Create
         public IActionResult Create()
         {
+           
             return View();
         }
 
@@ -80,6 +82,7 @@ namespace FutsalReservation.Controllers
             {
                 return NotFound();
             }
+            ViewData["HourTimings"] = new SelectList(_hourTimings);
             return View(court);
         }
 
@@ -88,8 +91,9 @@ namespace FutsalReservation.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name")] Court court)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name")] Court court,string startTime,string endTime)
         {
+            Timing timing = new Timing(startTime, endTime);
             if (id != court.Id)
             {
                 return NotFound();
@@ -99,8 +103,16 @@ namespace FutsalReservation.Controllers
             {
                 try
                 {
+                    //var toUpdateCourt = await _context.Court.FindAsync(id);
+                    // if(toUpdateCourt != null)
+                    // {
+                    //     toUpdateCourt.Timings.Add(timing);
+                    //    toUpdateCourt.Name = court.Name;
+                    //    await _context.SaveChangesAsync();
+                    // }
                     _context.Update(court);
                     await _context.SaveChangesAsync();
+                    
                 }
                 catch (DbUpdateConcurrencyException)
                 {

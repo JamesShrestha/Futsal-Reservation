@@ -8,19 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\dell\\.nuget\\packages\\": {}
+    "C:\\Users\\SnA\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\6th semester\\dotnet labs\\FutsalReservation\\FutsalReservation.Data\\FutsalReservation.Data.csproj",
+      "projectUniqueName": "D:\\dotnet\\Futsal\\FutsalReservation.Data\\FutsalReservation.Data.csproj",
       "projectName": "FutsalReservation.Data",
-      "projectPath": "D:\\6th semester\\dotnet labs\\FutsalReservation\\FutsalReservation.Data\\FutsalReservation.Data.csproj",
-      "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-      "outputPath": "D:\\6th semester\\dotnet labs\\FutsalReservation\\FutsalReservation.Data\\obj\\",
+      "projectPath": "D:\\dotnet\\Futsal\\FutsalReservation.Data\\FutsalReservation.Data.csproj",
+      "packagesPath": "C:\\Users\\SnA\\.nuget\\packages\\",
+      "outputPath": "D:\\dotnet\\Futsal\\FutsalReservation.Data\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\SnA\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,7 +55,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -60,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -17,5 +17,6 @@ namespace FutsalReservation.Data
         public DbSet<FutsalReservation.Data.Entities.User> User { get; set; }
         public DbSet<FutsalReservation.Data.Entities.Court> Court { get; set; }
         public DbSet<FutsalReservation.Data.Entities.Reservation> Reservation { get; set; }
+        public DbSet<FutsalReservation.Data.Entities.Timing> Timing { get; set; }
     }
 }
