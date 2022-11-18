@@ -3,9 +3,8 @@
 
 Basic project installation steps:
 ```
-Clone repository
+Clone repository then follow the following steps
 
-BACK-END:
 1. navigate to directory where you cloned this repo
    
 2. dotnet restore
