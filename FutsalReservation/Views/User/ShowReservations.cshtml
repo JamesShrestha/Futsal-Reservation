@@ -1,0 +1,51 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model IEnumerable<FutsalReservation.Data.Entities.Reservation>
+@{
+    ViewData["Title"] = "My Reservations";
+    ViewData["UserId"] = @ViewBag.UserId;
+}
+
+<h2>My Reservations</h2>
+<a class="btn btn-primary" asp-area="" asp-controller="Reservation" asp-action="UserCreate" asp-route-id="@ViewBag.UserId">Create New Reservation</a>
+
+<br />
+<span class="text-danger">@ViewBag.Message</span>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Court)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReservationDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReservationTime)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Court.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReservationDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReservationTime)
+                </td>
+                <td>
+                    <a asp-controller="Reservation" asp-action="Edit" asp-route-id="@item.ReservationId">Edit</a> |
+                    <a asp-controller="Reservation" asp-action="Details" asp-route-id="@item.ReservationId">Details</a> |
+                    <a asp-controller="Reservation" asp-action="Delete" asp-route-id="@item.ReservationId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
