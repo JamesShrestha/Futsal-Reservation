@@ -39,6 +39,26 @@ namespace FutsalReservation.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Timing",
+                columns: table => new
+                {
+                    TimingId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    startTime = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    endTime = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CourtId = table.Column<int>(type: "int", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Timing", x => x.TimingId);
+                    table.ForeignKey(
+                        name: "FK_Timing_Court_CourtId",
+                        column: x => x.CourtId,
+                        principalTable: "Court",
+                        principalColumn: "Id");
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Reservation",
                 columns: table => new
                 {
@@ -75,6 +95,11 @@ namespace FutsalReservation.Migrations
                 name: "IX_Reservation_UserId",
                 table: "Reservation",
                 column: "UserId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Timing_CourtId",
+                table: "Timing",
+                column: "CourtId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -83,10 +108,13 @@ namespace FutsalReservation.Migrations
                 name: "Reservation");
 
             migrationBuilder.DropTable(
-                name: "Court");
+                name: "Timing");
 
             migrationBuilder.DropTable(
                 name: "User");
+
+            migrationBuilder.DropTable(
+                name: "Court");
         }
     }
 }

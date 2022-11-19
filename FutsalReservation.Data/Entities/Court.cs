@@ -16,7 +16,7 @@ namespace FutsalReservation.Data.Entities
         public int Id { get; set; }
         public string Name { get; set; }
         public virtual ICollection<Reservation>? Reservations { get; set; }
-        public List<Timing> Timings { get; set; }
+        public virtual ICollection<Timing>? Timings { get; set; }
 
         //public Court()
         //{

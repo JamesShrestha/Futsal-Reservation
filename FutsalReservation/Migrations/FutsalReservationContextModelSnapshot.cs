@@ -150,9 +150,11 @@ namespace FutsalReservation.Migrations
 
             modelBuilder.Entity("FutsalReservation.Data.Entities.Timing", b =>
                 {
-                    b.HasOne("FutsalReservation.Data.Entities.Court", null)
+                    b.HasOne("FutsalReservation.Data.Entities.Court", "Court")
                         .WithMany("Timings")
                         .HasForeignKey("CourtId");
+
+                    b.Navigation("Court");
                 });
 
             modelBuilder.Entity("FutsalReservation.Data.Entities.Court", b =>

@@ -23,7 +23,7 @@ namespace FutsalReservation.Controllers
         // GET: Court
         public async Task<IActionResult> Index()
         {
-            var courtReservations = _context.Court.Include(r => r.Reservations);
+            var courtReservations = _context.Court.Include(r => r.Reservations).Include(t => t.Timings);
             //return View(await _context.Court.ToListAsync());
             return View(await courtReservations.ToListAsync());
         }
@@ -91,9 +91,9 @@ namespace FutsalReservation.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name")] Court court,string startTime,string endTime)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name")] Court court,string endTime,string startTime)
         {
-            Timing timing = new Timing(startTime, endTime);
+           Timing timing = new Timing(startTime, endTime);
             if (id != court.Id)
             {
                 return NotFound();
@@ -103,15 +103,14 @@ namespace FutsalReservation.Controllers
             {
                 try
                 {
-                    //var toUpdateCourt = await _context.Court.FindAsync(id);
-                    // if(toUpdateCourt != null)
-                    // {
-                    //     toUpdateCourt.Timings.Add(timing);
-                    //    toUpdateCourt.Name = court.Name;
-                    //    await _context.SaveChangesAsync();
-                    // }
-                    _context.Update(court);
-                    await _context.SaveChangesAsync();
+                    var toUpdateCourt = await _context.Court.FindAsync(id);
+                    if (toUpdateCourt != null)
+                    {
+                        toUpdateCourt.Timings = new List<Timing>();
+                        toUpdateCourt.Timings.Add(timing);
+                        toUpdateCourt.Name = court.Name;
+                        await _context.SaveChangesAsync();
+                    }
                     
                 }
                 catch (DbUpdateConcurrencyException)
