@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YdkhcsNLYH3xiJA5oZlmhH0rjylP5uRLGEvpUOPN+LpXuUEA6QS8mbKWJJ7yubF9G1RXLA9lnTHfD2Y5MY1B+Q==",
+  "dgSpecHash": "SxZHXUWykPPLClFOHyRoC/8y6OuDkG1twZSiNHHZ2myCrHxB5RiJ5oG9yrylU/deAi3i8PA0XHr0ro80X3o9mQ==",
   "success": true,
-  "projectFilePath": "D:\\6th semester\\dotnet labs\\FutsalReservation\\FutsalReservation.Data\\FutsalReservation.Data.csproj",
+  "projectFilePath": "D:\\dotnet\\Futsal\\FutsalReservation.Data\\FutsalReservation.Data.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

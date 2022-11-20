@@ -10,3 +10,15 @@ D:\6th semester\dotnet labs\FutsalReservation\FutsalReservation.Data\obj\Debug\n
 D:\6th semester\dotnet labs\FutsalReservation\FutsalReservation.Data\obj\Debug\net6.0\refint\FutsalReservation.Data.dll
 D:\6th semester\dotnet labs\FutsalReservation\FutsalReservation.Data\obj\Debug\net6.0\FutsalReservation.Data.pdb
 D:\6th semester\dotnet labs\FutsalReservation\FutsalReservation.Data\obj\Debug\net6.0\ref\FutsalReservation.Data.dll
+D:\dotnet\Futsal\FutsalReservation.Data\bin\Debug\net6.0\FutsalReservation.Data.deps.json
+D:\dotnet\Futsal\FutsalReservation.Data\bin\Debug\net6.0\FutsalReservation.Data.dll
+D:\dotnet\Futsal\FutsalReservation.Data\bin\Debug\net6.0\FutsalReservation.Data.pdb
+D:\dotnet\Futsal\FutsalReservation.Data\obj\Debug\net6.0\FutsalReservation.Data.csproj.AssemblyReference.cache
+D:\dotnet\Futsal\FutsalReservation.Data\obj\Debug\net6.0\FutsalReservation.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\Futsal\FutsalReservation.Data\obj\Debug\net6.0\FutsalReservation.Data.AssemblyInfoInputs.cache
+D:\dotnet\Futsal\FutsalReservation.Data\obj\Debug\net6.0\FutsalReservation.Data.AssemblyInfo.cs
+D:\dotnet\Futsal\FutsalReservation.Data\obj\Debug\net6.0\FutsalReservation.Data.csproj.CoreCompileInputs.cache
+D:\dotnet\Futsal\FutsalReservation.Data\obj\Debug\net6.0\FutsalReservation.Data.dll
+D:\dotnet\Futsal\FutsalReservation.Data\obj\Debug\net6.0\refint\FutsalReservation.Data.dll
+D:\dotnet\Futsal\FutsalReservation.Data\obj\Debug\net6.0\FutsalReservation.Data.pdb
+D:\dotnet\Futsal\FutsalReservation.Data\obj\Debug\net6.0\ref\FutsalReservation.Data.dll
